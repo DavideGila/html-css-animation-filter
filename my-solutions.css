@@ -140,5 +140,19 @@
 
 }
 
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: spacebottomwhite 2s linear;
+}
+
+@keyframes spacebottomwhite {
+    25% {
+        right: 20%;
+    }
+
+    50% {
+        right: 40%;
+    }
+
+}
 
 /* thirteenth square */
