@@ -123,8 +123,22 @@
     }
 }
 
-
 /* twelfth square */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: spacetopwhite 2s linear;
+}
+
+@keyframes spacetopwhite {
+    25% {
+        left: 20%;
+    }
+
+    50% {
+        left: 40%;
+    }
+
+}
 
 
 /* thirteenth square */
