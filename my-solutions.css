@@ -113,6 +113,16 @@
 
 /* eleventh square */
 
+.ex-11-icon:hover {
+    animation: littlespin 1s linear reverse;
+}
+
+@keyframes littlespin {
+    25% {
+        transform: rotate(1turn);
+    }
+}
+
 
 /* twelfth square */
 
